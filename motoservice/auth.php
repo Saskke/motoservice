@@ -16,7 +16,7 @@ require_once("components/header.php");
   </div>
   <div class="col-6">  
   
-    <form action="auth_obr.php" method="POST" class="auth-form"> <!--отделяем форму от всего остального классом-->
+    <form action="auth_obr.php" method="POST" class="auth-form"> 
         <div class="input-group mb-3">
         <div class="input-group-prepend">
               <span class="input-group-text"><i class="fa fa-user" aria-hidden="true"></i></span>

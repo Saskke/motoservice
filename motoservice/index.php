@@ -1,7 +1,6 @@
 <?php
-    $title = "ТехМото"; // указали название шапки
-    require_once("components/header.php"); // подгрузили файл где указан код начала страницы для удобства.   require_once позваляет в php подключить код HTML. НО ЭТОЙ КОМАНДОЙ МОЖНО ПОДКЛЮЧИТЬ В  ТЕГЕ PHP ОДИН РАЗ(КАК Я ПОНЯЛ). ЕСЛИ ВТОРОЙ РАЗ ИСПОЛЬЗОВАТЬ, ЕГО ПРОИГНОРИТ
-    //include    include_once    require     require_once - require не подгрузит страницу с ошибками,  include - сможет подгрузить
+    $title = "ТехМото"; 
+    require_once("components/header.php"); 
 ?>
 
 <style>
@@ -76,7 +75,7 @@ html {
     <div class="container-2" id="pricemoto">
         <h2 align="center"><br><b>Услуги и цены</b></h2>
         <div class="row-2">
-            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3"> <!-- кнопка с картинкой, Техническое обслуцживвание -->
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3"> 
                 <div class="price">
                     <img src="img/maintenance.jpg" alt="img" width="424" height="386" blank="" class="img-fluid w-100 card-img">
                         <div class = "card-body no-padding d-flex align-items-end card-img-overlay">
@@ -91,12 +90,11 @@ html {
                 </div>
             </div>
 
-            <!-- Modal для кнопки -->
             <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg modal-dialog-scrollable">
-                <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Ремонт мотоциклов</h5>
+                <div class="modal-dialog modal-lg modal-dialog-scrollable">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Ремонт мотоциклов</h5>
                 </div>
                 <div class="modal-body">
                     <h3 class="h3table">Прайс лист</h3>
@@ -171,9 +169,8 @@ html {
                 </div>
             </div>
             </div> 
-            <!-- конец модальной кнопки ремонт мотоциклов И ВООБЩЕ ВСЕЙ КАРТИНКИ -->
+            
     
-        <!-- ВСЯ КАРТИНКА И КНОПКА РЕМОНТА МОТОЦИКЛА -->
         <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
             <div class="price">
                 <img src="img/repairs.jpg" alt="img" width="424" height="386" blank="" class="img-fluid w-100 card-img">
@@ -189,7 +186,6 @@ html {
             </div>
         </div>
 
-        <!-- Modal для кнопки -->
         <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-scrollable">
             <div class="modal-content">
@@ -269,7 +265,6 @@ html {
             </div>
         </div>
         </div> 
-        <!-- конец модальной кнопки ремонт мотоциклов И ВООБЩЕ ВСЕЙ КАРТИНКИ -->
 
         <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
             <div class="price">
@@ -286,7 +281,6 @@ html {
             </div>
         </div>
 
-        <!-- Modal для кнопки доп оборудование и тюн -->
         <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-scrollable">
             <div class="modal-content">
@@ -366,10 +360,6 @@ html {
             </div>
         </div>
         </div> 
-        <!-- конец модальной кнопки доп оборудование и тюн И ВООБЩЕ ВСЕЙ КАРТИНКИ -->
-
-
-
     </div>
 
     <div class="container-3" id="contact">

@@ -33,15 +33,9 @@ $_SESSION['model'] = $result['model'];
 $_SESSION['year'] = $result['year'];
 $_SESSION['isAdmin'] = $result['isAdmin'];
 
-//echo "Пользователь успешно вошел!";
-exit("<script>window.location.href = 'lk.php'</script>"); //перенаправление на другую страницу
+exit("<script>window.location.href = 'lk.php'</script>"); 
 } else { 
     exit("Неверный логин или пароль!");
 }
 
-
-
-
-//exit(var_dump($result)); //проверка, выводит массив
-//var_damp и echo удаляем, чтоб потом не мешали
 
